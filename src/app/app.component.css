@@ -1,0 +1,56 @@
+.componentTitle {
+  margin: 0;
+  background-color: #393c40;
+  color: ghostwhite;
+  padding: 1rem;
+}
+
+.listItem {
+  width: 70%;
+  margin-left: 15%;
+  padding: 0;
+  background-color: ghostwhite;
+  color: dimgray;
+  border: solid 1px black;
+  box-shadow: gray 1px 2px;
+}
+
+.listItemTitle {
+  margin: 0;
+  background-color: #283854;
+  color: ghostwhite;
+  padding: 1rem;
+}
+
+.listItemGeneralInfo {
+  display: flex;
+  justify-content: space-around;
+}
+
+.listItemTransactions {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+  .listItemTransactions h3 {
+    text-align: center
+  }
+
+  .listItemTransactions ul {
+    display: grid;
+    grid-template-columns: 45% 45%;
+  }
+
+  .listItemTransactions li {
+    margin-left: 10%;
+  }
+
+    .listItemTransactions li p {
+      margin: 10px 0;
+    }
+
+.listItemPoints {
+  color: forestgreen;
+  font-size: 1.2rem;
+}
